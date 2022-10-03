@@ -1,0 +1,9 @@
+<h1>Nazim Chishti</h1>
+
+<div>{{user.DOB |date :'medium'}} </div>
+<h1>FirstName:{{user.Name | lowercase}} </h1>
+<h2>LatsName:{{user.lastname | uppercase}}</h2>
+<h4>{{user.salary | currency:'CAD'}}</h4>
+<code>{{user | json}}</code>
+
+<p>{{user.DOB|date:'MMMM' |uppercase}}</p>
